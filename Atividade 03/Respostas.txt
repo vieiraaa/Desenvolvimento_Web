@@ -1,0 +1,14 @@
+1. Explique com suas palavras o que é MVC e cite pelo menos uma vantagem de se usar MVC.
+	A Model, View e Controller (MVC) basicamente consiste com a integração dos nossos Modelos de interação com suas abas de visualização e Controles de dados na tabela.
+
+	"Model é a camada responsável pela parte lógica da aplicação, ou seja, todos os recursos da sua aplicação (consultas ao BD, validações, notificações, etc), mas ele não sabe quando isso deve ser feito, a camada de model apenas tem o necessário para que tudo aconteça, mas não sabe quando irá executar. View é a camada responsável por exibir dados para o usuário, seja em páginas HTML, JSON, XML, etc. A camada View não possui responsabilidade de saber quando vai exibir os dados, apenas como irá exibi-los. Controller é o famoso “meio-de-campo” da aplicação. Essa é a camada que sabe quem chamar e quando chamar para executar determinada ação. Acesso em (27/05)
+
+
+2. Explique com suas palavras o que é ORM. Cite pelo menos uma vantagem de se usar ORM.
+	Conhecemos o Object Relational Mapping (ORM) através do laravel, podemos assumir, de inicio que o mesmo tem o objetivo de facilitar as manupulaçoes com Banco de Dados, através de recursos como buscas minuciosas entre as mesmas, utilizando das próprias Models, que relacionam-se com as demais tabelas..
+	
+	"abstrai toda a complexidade da interação com os bancos de dados utilizando as Models para interagir com cada tabela." - Fonte (Acesso em 27/05): https://www.dialhost.com.br/blog/eloquent-simplificando-models-laravel/
+
+3. Explique o que você entende por migration. Em quais momentos deverão ser utilizadas?
+	Utilizamos a Migration em Desenvolvimento web / laravel para criarmos uma espécie de banco de dados, desta forma, linkamos nossos códigos com o Mysql. Isso tudo resulta em uma série de utilidade, entre elas histórico de alterações / inserções. Podendo ser desfeita a qualuqer momento tb.
+	
